@@ -1,0 +1,17 @@
+server:
+  port: 80
+  servlet:
+    context-path: /test
+
+
+country: China
+basedir: c:\windows
+tempdir: ${basedir}\temp
+# 使用“”里面的转义字符生效
+tempdir2: "${basedir}\temp"
+
+datasource:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://localhost/springboot_db
+  username: root
+  password: root666
