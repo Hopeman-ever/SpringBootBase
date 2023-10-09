@@ -11,6 +11,9 @@ public class StudyController {
     public String getById() {
         String name = "阎泽宇";
         int a = 2;
+        String name2 = "张志立";
+        System.out.println(name2);
+        System.out.println("......");
         System.out.println(name);
         System.out.println(a);
         System.out.println("git is running...");
