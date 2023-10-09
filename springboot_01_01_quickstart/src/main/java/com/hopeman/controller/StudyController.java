@@ -9,6 +9,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class StudyController {
     @GetMapping
     public String getById() {
+        String name = "张志立";
+        int a = 1;
+        System.out.println(name);
+        System.out.println(a);
         System.out.println("git is running...");
         return "git is running...";
     }
